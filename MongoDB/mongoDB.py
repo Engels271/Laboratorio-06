@@ -6,7 +6,7 @@ import pymongo
 from pymongo.errors import PyMongoError, OperationFailure, ServerSelectionTimeoutError 
 
 # EJEMPLO DE URI: "mongodb+srv://<user>:<password>@tiendas.9i9e53f.mongodb.net/?appName=Tiendas"
-MONGO_URI = "mongodb+srv://bmmostaceros_db_user:laboratorio6@tiendas.9i9e53f.mongodb.net/?appName=Tiendas" # URI de conexión a MongoDB Atlas
+MONGO_URI = "URI" # URI de conexión a MongoDB Atlas
 DATABASE_NAME = "Tienda"
 COLECCIONES = ["empleados", "productos", "clientes", "ventas"] # Lista de colecciones creadas
 
